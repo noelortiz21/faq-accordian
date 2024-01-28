@@ -11,11 +11,11 @@
       sizes="32x32"
       href="./assets/images/favicon-32x32.png"
     />
-<link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css" />
     <title>Frontend Mentor | FAQ accordion</title>
 
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
+    <!-- <style>
       .attribution {
         font-size: 11px;
         text-align: center;
@@ -23,78 +23,92 @@
       .attribution a {
         color: hsl(228, 45%, 44%);
       }
-    </style>
+    </style> -->
   </head>
   <body>
     <main class="container">
       <div class="top-bg">
-        <img class="bg-pattern" src="assets/images/background-pattern-mobile.svg" alt="bg-pattern" />
+        <img
+          class="bg-pattern"
+          src="assets/images/background-pattern-mobile.svg"
+          alt="bg-pattern"
+        />
       </div>
       <div class="lower-bg"></div>
-    <div class="faq-card">
-      <img src="assets/images/icon-star.svg" alt="star" />
-      <h1>FAQs</h1>
 
-      <label for="q1">
-        What is Frontend Mentor, and how will it help me?
-        <div>
-          <input type="radio" id="q1" name="options" value="option1" />
-          <img src="assets/images/icon-plus.svg" alt="" />
+      <div class="faq-card">
+        <div class="title-group"> 
+          <img class="star" src="assets/images/icon-star.svg" alt="star" />
+          <h1 class="title">FAQs</h1>
         </div>
-        <p>
-          Frontend Mentor offers realistic coding challenges to help developers
-          improve their frontend coding skills with projects in HTML, CSS, and
-          JavaScript. It's suitable for all levels and ideal for portfolio
-          building.
-        </p>
-      </label>
 
-      <label for="q2">
-        Is Frontend Mentor free?
-        <div>
-          <input type="radio" id="q2" name="options" value="option2" />
-          <img src="assets/images/icon-plus.svg" alt="" />
-        </div>
-        <p>
-          Yes, Frontend Mentor offers both free and premium coding challenges,
-          with the free option providing access to a range of projects suitable
-          for all skill levels.
-        </p>
-      </label>
+        <label for="q1">
+          <div class="r-group one">
+            <p class="ques one">
+              What is Frontend Mentor, and how will it help me?
+            </p>
+            <input type="radio" id="q1" name="options" value="option1" />
+            <img class="expand-icon" src="assets/images/icon-plus.svg" alt="" />
+          </div>
+          <p class="ans one">
+            Frontend Mentor offers realistic coding challenges to help
+            developers improve their frontend coding skills with projects in
+            HTML, CSS, and JavaScript. It's suitable for all levels and ideal
+            for portfolio building.
+          </p>
+        </label>
 
-      <label for="q3">
-        Can I use Frontend Mentor projects in my portfolio?
-        <div>
-          <input type="radio" id="q3" name="options" value="option3" />
-          <img src="assets/images/icon-plus.svg" alt="" />
-        </div>
-        <p>
-          Yes, you can use projects completed on Frontend Mentor in your
-          portfolio. It's an excellent way to showcase your skills to potential
-          employers!
-        </p>
-      </label>
+        <label for="q2">
+          <div class="r-group two">
+            <p class="ques two">Is Frontend Mentor free?</p>
+            <input type="radio" id="q2" name="options" value="option2" />
+            <img class="expand-icon" src="assets/images/icon-plus.svg" alt="" />
+          </div>
+          <p class="ans two">
+            Yes, Frontend Mentor offers both free and premium coding challenges,
+            with the free option providing access to a range of projects
+            suitable for all skill levels.
+          </p>
+        </label>
 
-      <label for="q4">
-        How can I get help if I'm stuck on a Frontend Mentor challenge?
-        <div>
-          <input type="radio" id="q4" name="options" value="option3" />
-          <img src="assets/images/icon-plus.svg" alt="" />
-        </div>
-        <p>
-          The best place to get help is inside Frontend Mentor's Discord
-          community. There's a help channel where you can ask questions and seek
-          support from other community members.
-        </p>
-      </label>
-    </div>
+        <label for="q3">
+          <div class="r-group three">
+            <p class="ques three">
+              Can I use Frontend Mentor projects in my portfolio?
+            </p>
+            <input type="radio" id="q3" name="options" value="option3" />
+            <img class="expand-icon" src="assets/images/icon-plus.svg" alt="" />
+          </div>
+          <p class="ans three">
+            Yes, you can use projects completed on Frontend Mentor in your
+            portfolio. It's an excellent way to showcase your skills to
+            potential employers!
+          </p>
+        </label>
+
+        <label for="q4">
+          <div class="r-group four">
+            <p class="ques four">
+              How can I get help if I'm stuck on a Frontend Mentor challenge?
+            </p>
+            <input type="radio" id="q4" name="options" value="option4" />
+            <img class="expand-icon" src="assets/images/icon-plus.svg" alt="" />
+          </div>
+          <p class="ans four">
+            The best place to get help is inside Frontend Mentor's Discord
+            community. There's a help channel where you can ask questions and
+            seek support from other community members.
+          </p>
+        </label>
+      </div>
     </main>
 
-    <div class="attribution">
+    <!-- <div class="attribution">
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
         >Frontend Mentor</a
       >. Coded by <a href="#">Your Name Here</a>.
-    </div>
+    </div> -->
+    <script src="script.js"></script>
   </body>
 </html>
