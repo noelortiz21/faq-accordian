@@ -138,3 +138,6 @@
 input{
     visibility: hidden;
 }
+.reveal{
+    display: block;
+}
